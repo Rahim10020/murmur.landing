@@ -5,9 +5,17 @@
   --foreground: #171717;
   --clear: #ffffff;
   --secondary-dark: #2e2e2e;
+  --curve: clamp(36px, 7vw, 130px);
 }
 
 body {
   background-color: var(--foreground);
   color: var(--clear);
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-foreground: var(--foreground);
+  --color-clear: var(--clear);
+  --color-secondary-dark: var(--secondary-dark);
 }
