@@ -16,7 +16,9 @@ export default function Footer({ lang, setLang }: FooterProps) {
             key={l}
             onClick={() => setLang(l)}
             aria-pressed={lang === l}
-            className={lang === l ? "font-bold text-white" : "hover:text-white"}
+            className={
+              lang === l ? "font-medium text-white" : "hover:text-white"
+            }
           >
             {l.toUpperCase()}
           </button>

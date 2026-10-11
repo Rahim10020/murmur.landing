@@ -11,7 +11,7 @@ export default function DownloadButton({
     <a
       href={href}
       download
-      className="inline-flex items-center rounded-full bg-foreground px-8 py-4 text-lg font-bold text-clear transition hover:scale-105"
+      className="inline-flex items-center rounded-full bg-foreground px-24 py-6 text-lg font-medium text-clear transition hover:scale-105"
     >
       {children}
     </a>

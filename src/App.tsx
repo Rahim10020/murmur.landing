@@ -12,7 +12,7 @@ export default function App() {
   return (
     <main className="flex min-h-svh flex-col bg-foreground">
       <CurvedPanel>
-        <h1 className="mx-auto max-w-3xl text-5xl font-medium leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">
+        <h1 className="mx-auto max-w-4xl text-5xl font-medium leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">
           {t.title}
         </h1>
         <div className="mt-10">
