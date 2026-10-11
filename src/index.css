@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Sniglet";
+  src: url("./assets/fonts/Sniglet-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sniglet";
+  src: url("./assets/fonts/Sniglet-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --primary: #ffe01b;
   --foreground: #171717;
@@ -11,9 +27,12 @@
 body {
   background-color: var(--foreground);
   color: var(--clear);
+  font-family: "Sniglet", system-ui, sans-serif;
 }
 
 @theme {
+  --font-sans: "Sniglet", system-ui, sans-serif;
+  --font-sniglet: "Sniglet", system-ui, sans-serif;
   --color-primary: var(--primary);
   --color-foreground: var(--foreground);
   --color-clear: var(--clear);
