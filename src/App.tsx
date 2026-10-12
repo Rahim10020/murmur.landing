@@ -27,7 +27,7 @@ export default function App() {
           </div>
           <p className="mt-4 text-sm font-medium opacity-70 flex items-center gap-4">
             {t.meta}{" "}
-            <a href={site.github} className="transition hover:text-white">
+            <a href={site.github} className="transition hover:text-black">
               GitHub
             </a>
             <span>{site.version}</span>

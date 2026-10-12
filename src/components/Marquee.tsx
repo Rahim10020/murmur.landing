@@ -17,7 +17,7 @@ export default function Marquee({ lang }: { lang: Lang }) {
     >
       <div className="animate-marquee inline-block will-change-transform">
         <span>{row.repeat(2)}</span>
-        <span aria-hidden="true">{row.repeat(2)}</span>
+        <span aria-hidden="true">{row.repeat(4)}</span>
       </div>
     </div>
   );
