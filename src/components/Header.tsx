@@ -15,7 +15,7 @@ export default function Header({ lang, setLang }: HeaderProps) {
           alt="Logo Murmur"
           width={56}
           height={56}
-          className="h-10 w-10 rounded-sm sm:h-12 sm:w-12 md:h-14 md:w-14"
+          className="h-10 w-10 rounded-full sm:h-12 sm:w-12 md:h-14 md:w-14"
         />
       </a>
 
