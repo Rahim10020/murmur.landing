@@ -14,7 +14,7 @@ export const content: Record<
   fr: {
     title: "Une idée ? Murmurez-la.",
     subtitle:
-      "100 % hors-ligne, sur votre téléphone. Rien n’est envoyé, rien n’est analysé. Programmez un rappel, ou laissez Murmur vous faire redécouvrir vos idées au bon moment.",
+      "Programmez un rappel, ou laissez Murmur vous faire redécouvrir vos idées au bon moment. 100 % hors-ligne, sur votre téléphone. Rien n’est envoyé, rien n’est analysé.",
     cta: "Télécharger l'APK",
     meta: "Android · gratuit",
     marquee: [

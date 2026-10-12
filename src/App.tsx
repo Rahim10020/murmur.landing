@@ -20,7 +20,7 @@ export default function App() {
           <h1 className="mx-auto max-w-4xl text-balance text-5xl font-medium leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">
             {t.title}
           </h1>
-          <p className="mx-auto max-w-sm lg:max-w-4xl text-2xl lg:text-4xl font-normal text-foreground">
+          <p className="mx-auto max-w-sm lg:max-w-4xl text-2xl lg:text-4xl font-normal text-foreground leading-relaxed">
             {t.subtitle}
           </p>
           <div className="mt-10">
