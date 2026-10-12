@@ -25,10 +25,11 @@ export const content: Record<
     ],
   },
   en: {
-    title: "Your title here",
-    subtitle: "",
+    title: "Got an idea? Whisper it.",
+    subtitle:
+      "Schedule a reminder, or let Murmur bring your ideas back to you at the right moment. 100% offline, on your phone. Nothing is sent, nothing is analyzed.",
     cta: "Download the APK",
-    meta: "Android · free · no account",
+    meta: "Android · free",
     marquee: [
       "whisper your idea",
       "your words stay yours",
