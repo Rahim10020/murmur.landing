@@ -12,7 +12,7 @@ export const content: Record<
   }
 > = {
   fr: {
-    title: "Une idée ? Murmurez-la.",
+    title: "Vous avez une idée ? Murmurez-la.",
     subtitle:
       "Programmez un rappel, ou laissez Murmur vous faire redécouvrir vos idées au bon moment. 100 % hors-ligne, sur votre téléphone. Rien n’est envoyé, rien n’est analysé.",
     cta: "Télécharger l'APK",
