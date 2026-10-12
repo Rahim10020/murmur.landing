@@ -3,11 +3,18 @@ export type Lang = (typeof languages)[number];
 
 export const content: Record<
   Lang,
-  { title: string; cta: string; meta: string; marquee: string[] }
+  {
+    title: string;
+    subtitle: string;
+    cta: string;
+    meta: string;
+    marquee: string[];
+  }
 > = {
   fr: {
-    title:
-      "Une idée ? Murmurez-la. Vos mots restent à vous. On vous la rappelle.",
+    title: "Une idée ? Murmurez-la.",
+    subtitle:
+      "100 % hors-ligne, sur votre téléphone. Rien n’est envoyé, rien n’est analysé. Programmez un rappel, ou laissez Murmur vous faire redécouvrir vos idées au bon moment.",
     cta: "Télécharger l'APK",
     meta: "Android · gratuit",
     marquee: [
@@ -19,6 +26,7 @@ export const content: Record<
   },
   en: {
     title: "Your title here",
+    subtitle: "",
     cta: "Download the APK",
     meta: "Android · free · no account",
     marquee: [
