@@ -10,7 +10,7 @@ export default function CurvedPanel({ children }: { children: ReactNode }) {
       {/* Courbe concave : ellipse couleur du fond (sombre), centrée sur le bord bas */}
       <div
         aria-hidden="true"
-        className="absolute bottom-[calc(var(--curve)*-1)] left-1/2 h-[calc(var(--curve)*2)] w-[130%] -translate-x-1/2 rounded-[50%] bg-foreground"
+        className="absolute -bottom-(--curve) left-1/2 h-[calc(var(--curve)*2)] w-[130%] -translate-x-1/2 rounded-[50%] bg-foreground"
       />
     </section>
   );

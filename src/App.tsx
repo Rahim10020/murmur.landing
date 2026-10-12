@@ -15,17 +15,17 @@ export default function App() {
       <Marquee lang={lang} />
       <CurvedPanel>
         <Header lang={lang} setLang={setLang} />
-        <div className="flex flex-1 flex-col items-center justify-center gap-12 py-12 text-center sm:py-16">
+        <div className="flex flex-1 flex-col items-center justify-center gap-6 py-2 text-center sm:py-16">
           <h1 className="mx-auto max-w-4xl text-balance text-5xl font-medium leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">
             {t.title}
           </h1>
           <p className="mx-auto max-w-sm lg:max-w-4xl text-2xl lg:text-4xl font-normal text-foreground leading-relaxed">
             {t.subtitle}
           </p>
-          <div className="mt-10">
+          <div className="mt-4 lg:mt-8">
             <DownloadButton href={site.apkUrl}>{t.cta}</DownloadButton>
           </div>
-          <p className="mt-4 text-sm font-medium opacity-70 flex items-center gap-4">
+          <p className="text-sm font-medium opacity-70 flex items-center gap-4">
             {t.meta}{" "}
             <a href={site.github} className="transition hover:text-black">
               GitHub
