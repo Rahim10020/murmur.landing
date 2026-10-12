@@ -15,7 +15,7 @@ export default function Header({ lang, setLang }: HeaderProps) {
           alt="Logo Murmur"
           width={40}
           height={40}
-          className="h-16 w-16 rounded-sm"
+          className="h-14 w-14 rounded-sm"
         />
       </a>
 
@@ -36,8 +36,8 @@ export default function Header({ lang, setLang }: HeaderProps) {
               aria-label={l === "fr" ? "Français" : "English"}
               className={
                 lang === l
-                  ? "rounded-full px-3 py-1 font-medium text-primary"
-                  : "rounded-full px-3 py-1 font-medium text-clear/60 transition hover:text-clear"
+                  ? "rounded-full px-3 py-1 font-medium text-primary cursor-pointer"
+                  : "rounded-full px-3 py-1 font-medium text-clear/60 transition hover:text-clear cursor-pointer"
               }
             >
               {l.toUpperCase()}

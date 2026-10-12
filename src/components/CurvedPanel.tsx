@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 export default function CurvedPanel({ children }: { children: ReactNode }) {
   return (
-    <section className="relative mx-3 mt-3 flex flex-1 flex-col overflow-hidden rounded-t-[2.5rem] bg-primary text-foreground sm:mx-4 sm:mt-4">
+    <section className="relative mx-3 flex flex-1 flex-col overflow-hidden rounded-t-[2.5rem] bg-primary text-foreground sm:mx-4">
       <div className="relative z-10 flex w-full flex-1 flex-col px-6 pb-[calc(var(--curve)+1.5rem)] sm:px-10">
         {children}
       </div>
