@@ -7,7 +7,7 @@ export default function Marquee({ lang }: { lang: Lang }) {
   return (
     <div
       aria-label="Bandeau défilant"
-      className="relative overflow-hidden whitespace-nowrap bg-foreground py-2.5 text-xl font-medium text-clear"
+      className="relative overflow-hidden whitespace-nowrap bg-foreground py-2.5 text-lg font-medium text-clear"
       style={{
         WebkitMaskImage:
           "linear-gradient(to right, transparent, black 8%, black 92%, transparent)",

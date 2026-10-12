@@ -1,7 +1,6 @@
 import { useState } from "react";
 import CurvedPanel from "./components/CurvedPanel";
 import DownloadButton from "./components/DownloadButton";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Marquee from "./components/Marquee";
 import { content, type Lang } from "./content";
@@ -26,10 +25,15 @@ export default function App() {
           <div className="mt-10">
             <DownloadButton href={site.apkUrl}>{t.cta}</DownloadButton>
           </div>
-          <p className="mt-4 text-sm font-medium opacity-70">{t.meta}</p>
+          <p className="mt-4 text-sm font-medium opacity-70 flex items-center gap-4">
+            {t.meta}{" "}
+            <a href={site.github} className="transition hover:text-white">
+              GitHub
+            </a>
+            <span>{site.version}</span>
+          </p>
         </div>
       </CurvedPanel>
-      <Footer />
     </main>
   );
 }
